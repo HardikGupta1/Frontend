@@ -1,0 +1,126 @@
+/* BlogSection.css */
+
+
+
+.blogs-section {
+    background-color: #fff;
+    text-align: left;
+    padding: 80px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .blogs-heading-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: -0px;
+    align-items: center;
+  }
+  
+  
+.blogs-heading {
+  color: #0b67bc;
+  width: 600px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 273px;
+  margin-top:-75px;
+}
+
+    
+  
+  
+  .blog-slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 4px rgba(11, 103, 188, 0.12);
+  }
+  
+  .blog-slider {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .blog-card {
+    flex: 0 0 100%;
+    height: 300px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0px 0px 20px 4px rgba(11, 103, 188, 0.12);
+    box-sizing: border-box;
+    border-radius: 8px;
+    opacity: 0.8;
+  }
+  
+  .blog-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px 4px rgba(11, 103, 188, 0.12);
+    opacity: 1;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    color: #007bff;
+    cursor: pointer;
+    z-index: 1;
+    user-select: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    margin-top: -25px;
+  }
+
+  .arrow-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 5; /* Initially hidden */
+    transition: opacity 0.3s ease;
+  }
+  
+  .arrow:hover {
+    transform: scale(1.2) translateY(-50%);
+    color: #0056b3;
+  }
+  
+  .left {
+    left: 375px;
+    margin-top: 1050px;
+  }
+  
+  .right {
+    margin-top: 1050px;
+    right: 365px;
+  }
+  
+  h2 {
+    color: #0b67bc;
+  }
+  
+  .read-more {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
